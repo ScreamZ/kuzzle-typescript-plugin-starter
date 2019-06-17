@@ -1,0 +1,18 @@
+{
+  "name": "kuzzle-typescript-plugin-starter",
+  "version": "1.0.0",
+  "description": "🚀 A starter kit for kuzzle.io with typescript.",
+  "main": "build/index.js",
+  "repository": "git@github.com:ScreamZ/kuzzle-typescript-plugin-starter.git",
+  "author": "Andréas \"ScreamZ\" HANSS <andreas.hanss67@gmail.com>",
+  "license": "Apache 2.0",
+  "private": false,
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc --sourceMap false"
+  },
+  "devDependencies": {
+    "tslint": "^5.17.0",
+    "typescript": "^3.5.2"
+  }
+}

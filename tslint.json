@@ -1,0 +1,19 @@
+{
+  "defaultSeverity": "error",
+  "extends": ["tslint:recommended"],
+  "jsRules": {},
+  "rules": {
+    "interface-name": false,
+    "member-access": [true, "no-public"],
+    "no-console": {
+      "severity": "warning"
+    },
+    "variable-name": {
+      "options": ["check-format", "allow-leading-underscore", "allow-pascal-case"]
+    }
+  },
+  "rulesDirectory": [],
+  "linterOptions": {
+    "exclude": ["build/", "node_modules/"]
+  }
+}
